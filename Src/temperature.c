@@ -22,8 +22,8 @@
 
 float get_temperature_from_voltage(uint32_t value)
 {
-	float R = (RS * (value - VCC)) / value;
-	float LnR = log(R);
+    float R = (RS * (value - VCC)) / value;
+    float LnR = log(R);
     float T = 1 / (A + (B + (C * LnR * LnR ))* LnR );
     T = T - 273.15; // k to c conversion
     return T;
