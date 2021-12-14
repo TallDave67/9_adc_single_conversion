@@ -1,13 +1,13 @@
 #include "stm32f4xx.h"
 #include "adc.h"
 
-#define GPIOAEN            (1U<<0)
-#define ADC1EN            (1U<<8)
-#define ADC_CH1            (1U<<0)
-#define ADC_SEQ_LEN_1           (0x00)
+#define GPIOAEN         (1U<<0)
+#define ADC1EN          (1U<<8)
+#define ADC_CH1         (1U<<0)
+#define ADC_SEQ_LEN_1   (0x00)
 #define CR2_ADON        (1U<<0)
-#define CR2_SWSTART        (1U<<30)
-#define SR_EOC            (1U<<1)
+#define CR2_SWSTART     (1U<<30)
+#define SR_EOC          (1U<<1)
 
 void pa1_adc_init(void)
 {
