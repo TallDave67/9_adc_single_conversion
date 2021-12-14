@@ -4,8 +4,8 @@
 #include "temperature.h"
 
 uint32_t sensor_value = 0;
-float temperature = 0.00
-		;
+float temperature = 0.00;
+
 void fpu_init(void)
 {
     //CPACR is located at address 0xE000ED88
