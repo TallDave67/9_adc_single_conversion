@@ -1,4 +1,4 @@
-# Embedded Systems Bare-Metal Programming Ground Up™ (STM32): Program 9
+# Embedded Systems Bare-Metal STM32 Programming from the Ground Up: Program 9
 
 [Code Development follows this Udemy Course](https://www.udemy.com/course/embedded-systems-bare-metal-programming/)
 
